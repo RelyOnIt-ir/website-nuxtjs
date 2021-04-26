@@ -1,0 +1,23 @@
+// Import fonts
+@import "typo";
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+$family-primary: 'Vazir';
+
+// Set your colors
+$primary: #2c3e50;
+$primary-light: #34495e;
+$primary-dark: #2c3e50;
+$primary-invert: #16a085;
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Import bulma styles
+@import "~bulma";
+
+// Import buefy styles
+@import "~buefy/src/scss/buefy";

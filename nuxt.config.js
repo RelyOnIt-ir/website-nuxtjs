@@ -1,20 +1,26 @@
 export default {
-  mode: 'spa',
+  ssr: true,
   /*
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'ریلیونیت | RelyOnIt',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: 'به زیرساخت خود تکیه کنید',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://unpkg.com/aos@2.3.1/dist/aos.css' },
+    ],
+    script: [
+      { src: 'https://unpkg.com/aos@2.3.1/dist/aos.js' },
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -23,15 +29,23 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/scss/main.scss'],
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [],
   /*
+   ** Nuxt.js components
+   ** see more: https://github.com/nuxt/components
+   */
+   components: true,
+  /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    ['nuxt-buefy', { css: false }],
+  ],
+  
   /*
    ** Build configuration
    */
