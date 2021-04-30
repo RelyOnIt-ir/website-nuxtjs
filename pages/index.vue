@@ -80,27 +80,7 @@
       </b-carousel>
     </section>
 
-    <section class="hero is-medium has-text-centered" id="contact-us">
-      <div class="hero-body">
-        <div class="inner-container">
-          <div class="columns is-centered">
-            <div data-aos="zoom-in-up" class="column is-8">
-              <h1 class="title is-2 mb-6">
-                یک قدم تا نگهداری و بهبود زیرساخت نرم افزاری شما
-              </h1>
-              <h2 class="subtitle">
-                <p class="is-size-5 is-centered my-2">جهت مشاوره با ما تماس بگیرید</p>
-                <b-tag type="is-success" size="is-large" class="p-5 has-text-weight-normal rtl">
-                  تلفن تماس: <span class="is-size-4 has-text-weight-bold">۰۲۱۲۸۴۲۹۱۸۲</span>
-                  <a href="tel:02128429182"><b-icon icon="phone" size="is-small" type="is-white" class="m-1"></b-icon></a>
-                </b-tag>
-              </h2>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
+    <contact-us-section></contact-us-section>
   </div>
 </template>
 <script>

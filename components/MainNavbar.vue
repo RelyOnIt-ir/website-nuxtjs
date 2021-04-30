@@ -15,7 +15,7 @@
 
       <a class="navbar-item" href="tel:02128429182">
         <b-tag type="is-success" size="is-normal" class="p-4 has-text-weight-normal rtl">
-          <span class="has-text-weight-bold">۰۲۱۲۸۴۲۹۱۸۲</span>
+          <span class="has-text-weight-bold" style="letter-spacing: 1px;">۰۲۱۲۸۴۲۹۱۸۲</span>
           <b-icon icon="phone" size="is-small" type="is-white" class="m-1"></b-icon>
         </b-tag>
       </a>
