@@ -62,6 +62,24 @@
       :image-src="require('~/assets/images/undraw_All_the_data_re_hh4w.svg')">
     </skill-hero-section>
 
+    <section class="hero is-medium has-text-centered" id="testomonials">
+      <h1 class="title is-2 mb-6">
+        مشتریان ما
+      </h1>
+      <b-carousel data-aos="zoom-in-up">
+          <b-carousel-item v-for="(testomonial, i) in testomonials" :key="i">
+              <section class="hero is-medium">
+                  <div class="hero-body has-text-centered rtl">
+                      <p class="m-3 is-size-4 has-text-weight-light"> {{testomonial.text}} </p>
+                      <p class="is-italic">
+                        <a :href="testomonial.link" target="_blank" rel="noopener noreferrer" class="has-text-link">{{ testomonial.name }}</a> {{ testomonial.role }} <a :href="testomonial.website" target="_blank" rel="noopener noreferrer" class="has-text-link">{{ testomonial.brand }}</a>
+                      </p>
+                  </div>
+              </section>
+          </b-carousel-item>
+      </b-carousel>
+    </section>
+
     <section class="hero is-medium has-text-centered" id="contact-us">
       <div class="hero-body">
         <div class="inner-container">
@@ -85,3 +103,26 @@
     </section>
   </div>
 </template>
+<script>
+import sample from 'lodash.sample'
+
+export default {
+  data: () => ({
+    testomonials: [
+      {
+        text: sample([
+          'همیشه این نگرانی تو بخش فنی استارتاپ مون داشتیم که چه کسی کارهای SysAdmin و برامون انجام بده تا تیم relyonit پیدا کردیم که تو سختترین لحظات به ما پشتیبانی دادن و باعث بهبود پایداری و زیر ساخت های فنی ما شدن.',
+          'این روزها که تکنولوژی ها و لایه های مختلفی در تولید و توسعه اپلیکیشن و نرم افزارها هست، اهمیت بخش DevOps خیلی بیشتر شده تیم Relyonit فرآیندها و وظایف Devops رو تا حد زیادی برای شما به بهترین نحو انجام میده.',
+          'حتما شما هم شنیدید که کلی از سایت ها چند وقت پیش بخاطر یک نفوذ و حمله سایبری دچار از دست رفتن اطلاعات شون شدن و متاسفانه خیلی هاشون حتی پلن backup گیری نداشتن که لطمات جبران ناپذیری بهشون وارد شد. تیم relyonit به بهترین شکل پلن های backup گیری رو برای ما اجرایی کرد و امروز خیالمون راحته که هر اتفاقی بیفته backup مطمئنی در دسترس مون هست.',
+          'اسم این تیم خیلی درست انتخاب شده واقعا در بخش زیرساختی برای ما تکیه گاه بودن و در سخت ترین شرایط میشد روی همراهی شون حساب کرد.'
+        ]),
+        name: 'آرش خرسند',
+        link: 'https://www.linkedin.com/in/arashkhorsand',
+        role: 'هم بنیان گذار و مدیرعامل',
+        brand: 'رومیتا',
+        website: 'https://roomita.com'
+      }
+    ]
+  })
+}
+</script>
