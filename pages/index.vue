@@ -24,7 +24,7 @@
             is-5-widescreen is-offset-1-widescreen
             is-5-fullhd is-offset-1-fullhd" data-aos="fade-down">
               <h1 class="title is-1 mb-6 has-text-right">
-                <span class="has-text-weight-bold">ریلیونیت</span> <br>
+                <span class="has-text-weight-bold">ریلایونیت</span> <br>
                 به زیرساخت خود تکیه کنید
               </h1>
               <h2 class="subtitle has-text-grey is-4 has-text-weight-normal has-text-right">
@@ -43,22 +43,22 @@
 
     <skill-hero-section 
       title="پیاده سازی DevOps"
-      description="سرعت توسعه ی نرم افزار خود و بروزرسانی را با اتوماتیک کردن فرایند آن، بهبود داده و احتمال بروز خطاها را به حداقل کاهش دهید. تیم ریلیونیت در این مسیر همراه شماست"
+      description="سرعت توسعه ی نرم افزار خود و بروزرسانی را با اتوماتیک کردن فرایند آن، بهبود داده و احتمال بروز خطاها را به حداقل کاهش دهید. تیم ریلایونیت در این مسیر همراه شماست"
       :image-src="require('~/assets/images/undraw_Project_completed_re_pqqq.svg')">
     </skill-hero-section>
     <skill-hero-section
       title="امنیت" 
-      description="بسیاری از مشکلات امنیتی نرم افزار ها با راهکار های ساده ای قابل پیشگیری است. تیم ریلیونیت این موارد را تا حد امکان پیش بینی کرده و در صدد رفع آن ها برخواهد آمد" 
+      description="بسیاری از مشکلات امنیتی نرم افزار ها با راهکار های ساده ای قابل پیشگیری است. تیم ریلایونیت این موارد را تا حد امکان پیش بینی کرده و در صدد رفع آن ها برخواهد آمد" 
       :image-src="require('~/assets/images/undraw_Secure_server_re_8wsq.svg')">
     </skill-hero-section>
     <skill-hero-section
       title="حفاظت از داده ها" 
-      description="پشتیبان گیری مطمئن و خودکار از داده ها بسیار حیاتی است. در کنار تیم ریلیونیت آن را محقق کنید" 
+      description="پشتیبان گیری مطمئن و خودکار از داده ها بسیار حیاتی است. در کنار تیم ریلایونیت آن را محقق کنید" 
       :image-src="require('~/assets/images/undraw_folder_files_nweq.svg')">
     </skill-hero-section>
     <skill-hero-section
       title="مانیتورینگ و الرتینگ" 
-      description="شاخص های سلامت سیستم شما در دستان شماست و زودتر از هر کسی از پیشامد های ناگهانی خبردار شوید و در صدد رفع آن درآیید. تیم ریلیونیت در این مسیر همراه شماست" 
+      description="شاخص های سلامت سیستم شما در دستان شماست و زودتر از هر کسی از پیشامد های ناگهانی خبردار شوید و در صدد رفع آن درآیید. تیم ریلایونیت در این مسیر همراه شماست" 
       :image-src="require('~/assets/images/undraw_All_the_data_re_hh4w.svg')">
     </skill-hero-section>
 

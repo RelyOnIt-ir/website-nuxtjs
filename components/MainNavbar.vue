@@ -25,7 +25,7 @@
 
   <div class="navbar-brand">
     <a class="navbar-item" href="https://relyonit.ir">
-      ریلیونیت
+      ریلایونیت
       <img src="../assets/images/relyonit-ir-logo.png" width="28" height="28" class="m-1">
     </a>
   </div>

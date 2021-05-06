@@ -3,7 +3,7 @@
 <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      تمامی حقوق توسط تیم زیرساخت نرم افزار <strong>ریلیونیت</strong> محفوظ است  
+      تمامی حقوق توسط تیم زیرساخت نرم افزار <strong>ریلایونیت</strong> محفوظ است  
       |
       <a href="/about-us" class="has-text-link">درباره ی ما</a>
     </p>
