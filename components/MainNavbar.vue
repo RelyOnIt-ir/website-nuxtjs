@@ -6,7 +6,10 @@
 
     <div class="navbar-start">
       <a class="navbar-item" href="/about-us">
-        داستان ما
+        درباره ی ما
+      </a>
+      <a class="navbar-item" href="/pricing">
+        تعرفه ها
       </a>
 
       <a class="navbar-item" href="https://virgool.io/relyonit" target="_blank" rel="noopener noreferrer">

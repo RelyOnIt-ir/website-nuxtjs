@@ -38,6 +38,11 @@
           <p>
             <a href="https://github.com/sadeghmohebbi" target="_blank" rel="noopener noreferrer" class="has-text-link">گیت هاب</a> | <a href="https://www.linkedin.com/in/sadegh-mohebbi-172476179/" target="_blank" rel="noopener noreferrer" class="has-text-link">لینکدین</a>
           </p>
+          <p class="has-text-center rtl mx-4 mt-2">
+            تسلط در اجرای خودکار سازی تست و انتشار نرم افزار با ابزار های gitlab ci/cd, jenkins و ...
+            توانایی در مدیریت سرور های لینوکسی،
+            برنامه نویس بک اند Node js فول استک، تسلط بر وب سرور Nginx، تسلط بر Docker و Docker Compose
+          </p>
         </div>
         <div class="column is-flex is-flex-direction-column">
           <figure class="image is-128x128 is-align-self-center mb-3">
@@ -49,6 +54,9 @@
           <p class="is-size-3">علی محمدعلی رجب</p>
           <p>
             <a href="https://github.com/mohammadalirajab" target="_blank" rel="noopener noreferrer" class="has-text-link">گیت هاب</a> | <a href="https://www.linkedin.com/in/ali-mohammadalirajab-0aa542201/" target="_blank" rel="noopener noreferrer" class="has-text-link">لینکدین</a>
+          </p>
+          <p class="has-text-center rtl mx-4 mt-2">
+            تسلط بر مدیریت سرور های لینوکسی، توانایی در اشکال یابی مشکلات امنیتی، مدرس لینوکس در سطوح LPIC1 و LPIC2 ، برنامه نویس بک اند Node js
           </p>
         </div>
       </div>
