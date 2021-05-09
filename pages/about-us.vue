@@ -40,8 +40,8 @@
           </p>
           <p class="rtl mx-4 mt-2">
             تسلط در اجرای خودکار سازی تست و انتشار نرم افزار با ابزار های gitlab ci/cd, jenkins و ...
-            توانایی در مدیریت سرور های لینوکسی،
-            برنامه نویس بک اند Node js فول استک، تسلط بر وب سرور Nginx، تسلط بر Docker و Docker Compose
+            توانایی در مدیریت و مانیتورینگ سرور های لینوکسی و ویندوزی ،
+            برنامه نویس بک اند Node js فول استک، تسلط بر Docker و Docker Compose
           </p>
         </div>
         <div class="column is-flex is-flex-direction-column">
