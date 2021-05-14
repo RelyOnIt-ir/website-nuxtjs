@@ -13,6 +13,7 @@
       </a>
 
       <a class="navbar-item" href="https://virgool.io/relyonit" target="_blank" rel="noopener noreferrer">
+        <b-icon icon="open-in-new" size="is-small" class="m-1"></b-icon>
         بلاگ
       </a>
 
